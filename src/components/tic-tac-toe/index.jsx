@@ -85,6 +85,7 @@ export default function TicTacToe() {
 
   return (
     <div className='container'>
+      <div className='head'>TIC TAC TOE</div>
       <table>
         <caption>Turn : {turnPlay}</caption>
         <tbody>
